@@ -994,10 +994,10 @@ private static function make_menu()
         if (isset($_SESSION['logged_in'])) {
 ?>
 
-<li class="topfirst"><a href="#">User Menu</a>
+<li class="topfirst"><a href="#"><?php echo $lng->getTrn('menu/cc'); ?></a>
         <ul>
-            <li class="subfirst"><a href="handler.php?type=teamcreator">Create a New Team</a></li>
-            <li><a href="index.php?section=matches&amp;type=usersched" >Schedule Match</a></li>
+            <li class="subfirst"><a href="handler.php?type=teamcreator"><?php echo $lng->getTrn('cc/new_team'); ?></a></li>
+            <li><a href="index.php?section=matches&amp;type=usersched" ><?php echo $lng->getTrn('menu/admin_menu/schedule'); ?></a></li>
              <li><a rel="nofollow" href="<?php echo urlcompile(T_URL_PROFILE,T_OBJ_COACH,$coach->coach_id,false,false).'&amp;subsec=teams';?>"><?php echo $lng->getTrn('cc/coach_teams');?></a></li>
             <li><a rel="nofollow" href="<?php echo urlcompile(T_URL_PROFILE,T_OBJ_COACH,$coach->coach_id,false,false).'&amp;subsec=profile';?>"><?php echo $lng->getTrn('cc/profile');?></a></li>
             <li><a rel="nofollow" href="<?php echo urlcompile(T_URL_PROFILE,T_OBJ_COACH,$coach->coach_id,false,false).'&amp;subsec=stats';?>"><?php echo $lng->getTrn('common/stats');?></a></li>
@@ -1071,7 +1071,7 @@ private static function make_menu()
     </ul>
 </li>
         
-<li class="topmenu"><a rel="nofollow" href="#">Statistics</a>
+<li class="topmenu"><a rel="nofollow" href="#"><?php echo $lng->getTrn('menu/statistics_menu/name');?></a>
     <ul>
         <li class="subfirst"><a rel="nofollow" href="<?php echo urlcompile(T_URL_STANDINGS,T_OBJ_TEAM,false,false,false);?>"><?php echo $lng->getTrn('menu/statistics_menu/team_stn');?></a></li>
         <li><a rel="nofollow" href="<?php echo urlcompile(T_URL_STANDINGS,T_OBJ_PLAYER,false,false,false);?>"><?php echo $lng->getTrn('menu/statistics_menu/player_stn');?></a></li>
