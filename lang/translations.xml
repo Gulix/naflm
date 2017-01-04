@@ -2139,13 +2139,13 @@ For example, english is in <en-GB>, french in <fr-FR>, .......
         <reroll>Relance</reroll>
         <apothecary>Apothicaire</apothecary>
         <ass_coach>Coach Assistant</ass_coach>
-        <cheerleader>Pom Pom Girl</cheerleader>
+        <cheerleader>Pom-Pom Girl</cheerleader>
         <journeyman>Journalier</journeyman>
         <options>Options</options>
         <empty>Vide</empty>
         <needhelp>Besoin d'aide ?</needhelp>
         <picof>Image de</picof>
-        <about>A propos</about>
+        <about>À propos</about>
         <recentmatches>Matchs récents</recentmatches>
         <upcomingmatches>Matchs à venir</upcomingmatches>
         <dateplayed>Date joué</dateplayed>
@@ -2229,14 +2229,14 @@ For example, english is in <en-GB>, french in <fr-FR>, .......
 </matches_menu>
 <statistics_menu>
         <name>Statistiques</name>
-        <player_stn>Position du Joueur</player_stn>
-        <team_stn>Position de l'Equipe</team_stn>
-        <coach_stn>Position du Coach</coach_stn>
-        <race_stn>Position de la Race</race_stn>
-        <star_stn>Position de la Star</star_stn>
+        <player_stn>Par Joueur</player_stn>
+        <team_stn>Par Équipe</team_stn>
+        <coach_stn>Par Coach</coach_stn>
+        <race_stn>Par Race</race_stn>
+        <star_stn>Par Champion</star_stn>
 </statistics_menu>
 <admin_menu>
-        <name>Administración</name>
+        <name>Administration</name>
         <nodes>Ligues, divisions, tournois</nodes>
         <ct_man>Gérer : Coachs &amp; équipes</ct_man>
         <usr_man>Gerer : Utilisateurs</usr_man>
@@ -2276,8 +2276,8 @@ For example, english is in <en-GB>, french in <fr-FR>, .......
 <cc>
         <new_team>Nouvelle équipe</new_team>
         <!-- <stats> defined in <common> block -->
-        <coach_teams>Equipes du Coach</coach_teams>
-        <profile>Profile</profile>
+        <coach_teams>Équipes du Coach</coach_teams>
+        <profile>Profil</profile>
         <photo>Image du Coach</photo>
         <coach_info>Information du Coach</coach_info>
         <note_persinfo>Informations personnelles visibles uniquement aux utilisateurs connectés</note_persinfo>
